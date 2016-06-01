@@ -1,0 +1,41 @@
+{
+  "name": "got-google-fonts-cli",
+  "version": "0.0.0",
+  "description": "CLI for getting Google web fonts",
+  "license": "MIT",
+  "repository": "ragingwind/got-google-fonts-cli",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "bin": {
+    "got-google-font": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "got-google-font",
+    "Google fonts",
+    "Google web fonts"
+  ],
+  "dependencies": {
+    "got-google-fonts": "^0.1.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "execa": "^0.4.0",
+    "os-random-tmpdir": "^0.1.1",
+    "xo": "^0.14.0"
+  }
+}
