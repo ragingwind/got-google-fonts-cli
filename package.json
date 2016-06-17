@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "ava": "^0.15.0",
+    "dargs": "^4.1.0",
     "execa": "^0.4.0",
     "os-random-tmpdir": "^0.1.1",
     "xo": "^0.14.0"
